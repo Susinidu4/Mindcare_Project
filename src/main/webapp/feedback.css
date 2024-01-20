@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	outline:none; border:none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgb(0, 0, 0, 0.5);
+	
+    
+}
+
+.container h1{
+	color: #333;
+	font-weight: 2000;
+	text-align: center;
+
+}
+.container .form{
+	margin-top: 10px;
+}
+.form .input-box{
+	width: 100%;
+	margin-top: 10px;
+}
+.input-box label{
+	color: #000000;
+}
+.form .input-box input{
+	position: relative;
+	height: 50px;
+	width: 100%;
+	outline: none;
+	font-size: 1rem;
+	color: #707070;
+	margin-top: 8px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 0 15px;
+}
+.input-box input:focus{
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .input-box textarea{
+	position: relative;
+	height: 150px;
+	width: 100%;
+	outline: none;
+	font-size: 1rem;
+	color: black;
+	margin-top: 8px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 0 15px;
+}
+.form .btn{
+	height: 55px;
+	width: 100%;
+	color: #fff;
+	font-size: 1rem;
+	border: none;
+	margin-top: 30px;
+	cursor: pointer;
+	border-radius: 15px;
+	font-weight: 400;
+	transition: all 0.2s ease;
+	background-color: gray;
+}
+.form .btn:hover{
+	background-color: gray;
+}
+
+/*Ratings*/
+.rating {
+	display: flex;
+	align-items: center;
+	grid-gap: .5rem;
+	font-size: 2rem;
+	color: var(--yellow);
+	margin-bottom: 2rem;
+}
+.rating .star {
+	cursor: pointer;
+}
+.rating .star.active {
+	opacity: 0;
+	animation: animate .5s calc(var(--i) * .1s) ease-in-out forwards;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+		transform: scale(1);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1.2);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

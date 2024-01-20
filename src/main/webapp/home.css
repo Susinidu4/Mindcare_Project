@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif ;
+}
+
+/*Home Image*/
+.Home_top{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/media_15f9f06b4074fd62eed7d241a11333b695e5ec8d3.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+/*end*/
+
+.definition{
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.content{
+    margin: 150px;
+}
+
+.content .definition img{
+    float:right;
+}

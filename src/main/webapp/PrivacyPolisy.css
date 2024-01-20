@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+.AA{
+	margin-left:40px;
+	margin-right:40px;
+}
+
+/* Style the header */
+h1.Privacy {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+/* Style the paragraph text */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+/* Style links in the list items */
+a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
